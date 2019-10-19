@@ -2,11 +2,11 @@
 
 
 
-Theme Name:SDRC
+Theme Name:VRWWCC
 
-Author: Neeraj Kumar
+Author: Umeshwaran
 
-Author URI: http://www.linkedin.com/home?trk=guest_home_login
+Author URI: https://www.linkedin.com/in/umeshwaran
 
 */
 
@@ -443,7 +443,7 @@ h2.stitle {
     display: block;
     margin: 0px;
     font-size: 16px;
-    padding: 0px 11px;
+    padding: 0px 37px;
     line-height: 40px;
     text-decoration: none;
     font-family: 'CorbelRegular';
@@ -452,7 +452,7 @@ h2.stitle {
 #catmenu li a:hover {
     color: #fff;
     margin: 0px;
-    padding: 0px 11px;
+    padding: 0px 37px;
     line-height: 40px;
     text-decoration: none;
     background: #ff8000 url(images/active_vr.jpg) repeat-x left 2px;
@@ -2200,4 +2200,10 @@ p.menu_head a {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.cont{
+    font-size: 15px;
+    padding-left: 15px;
+
 }
