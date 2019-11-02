@@ -250,6 +250,12 @@ img.alignleft {
     width: 911px;
     margin: 0px 0px 0px 0px;
 }
+#casing_enq {
+    padding: 0px 28px;
+    float: left;
+    width: 1000px;
+    margin: 0px 0px 0px 0px;
+}
 
 
 /* The Header */
@@ -489,7 +495,7 @@ h2.stitle {
     width: 200px;
     margin: 0px;
     padding: 5px;
-    background: #349084;
+    background: #ff8000;
 }
 
 #catmenu li li {
@@ -635,6 +641,7 @@ h2.stitle {
     text-align: left;
     text-indent: 18px;
     background: url(images/qute.png) no-repeat left 5px;
+    font-family: cursive;
 }
 
 .widmid div.tstmoin div.testcont span {
@@ -703,9 +710,9 @@ h2.stitle {
     font-size: 12px;
     font-weight: bold;
     color: #464646;
-    background: url(images/small_ul.png) no-repeat left 6px;
+    background: url(images/small_ul.png) no-repeat left 0px;
     border-bottom: 1px dashed #98A4A3;
-    padding: 0 0 10px 14px;
+    padding: 0 0 4px 20px;
     margin-top: 8px;
     margin-left: 3px;
 }
@@ -821,6 +828,15 @@ a.abutton {
 #content {
     float: left;
     width: 628px;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline;
+    overflow: hidden;
+}
+#content_enq {
+    float: left;
+    width: 1000px;
     height: 100%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -1027,11 +1043,13 @@ a.abutton {
 }
 
 .entry ul li {
-    font-size: 12px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
-    background: url(images/arrow2.jpg) no-repeat left 4px;
-    padding: 0 0 0 10px;
+    background: url(images/small_ul.png) no-repeat left 4px;
+    background-size: 15px;
+    padding: 0 0 7px 19px;
+    font-style: italic;
 }
 
 .entry ul li a {
@@ -1077,7 +1095,7 @@ h3.sidetitl {
     color: #fff;
     padding: 15px;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-family: 'CorbelRegular';
     text-shadow: 1px 1px #7FD1C5;
@@ -2206,4 +2224,49 @@ p.menu_head a {
     font-size: 15px;
     padding-left: 15px;
 
+}
+.widgetslide_locater {
+    width: 260px;
+    height: 260px;
+    margin: -444px 0px 0px -300px;
+    list-style: none;
+    padding: 0px 0 0px 0;
+    background: url(images/sidebox.jpg) no-repeat left bottom;
+    border-color: black;
+}
+/*//////////////////////*/
+
+
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #ff8000;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
